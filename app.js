@@ -30,7 +30,7 @@ const review = require("./models/review.js");
 app.use(methodOverride('_method'))
 
 main()
-    .then(res => console.log("connected"))
+    .then(res => console.log("connected")) 
     .catch(err => console.log(err));
 
 
