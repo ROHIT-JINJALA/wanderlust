@@ -25,10 +25,17 @@ Live demo on : https://wanderlust-kztr.onrender.com/listings
 
 wanderlust/
 ├── models/ # Mongoose models (User, Listing, Review)
+
 ├── routes/ # Express route handlers
+
 ├── public/ # Static assets (CSS, JS, images)
+
 ├── views/ # EJS templates
+
 ├── utils/ # Utility classes (ExpressError, middleware)
+
 ├── app.js # Main Express app
+
 ├── .env # Environment variables
+
 ├── package.json
