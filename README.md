@@ -1,16 +1,19 @@
 # 🧭 Wanderlust
 
-A full-stack web application for listing, exploring, and reviewing travel destinations or rental properties, built using the MERN stack.
-Live demo on : https://wanderlust-kztr.onrender.com/listings
+A full-stack web application for listing, exploring, and reviewing travel destinations or rental properties.
+
+🌐 **Live demo** : https://wanderlust-kztr.onrender.com/listings
 
 ## 🚀 Features
 
+- 🔐 User Authentication with Passport.js & Session Management
 - 🏘️ Add, edit, and delete listings (properties/villas)
 - 📸 Image upload using Cloudinary
-- 💬 Add and manage reviews
-- 👤 User authentication with Passport.js
+- ⭐ Add and manage reviews
+- 📍 Mapbox Integration for Location Geocoding
 - 🌐 RESTful routing and EJS templating
-- 🔒 Flash messages and error handling
+- 💬 Flash messages and error handling
+- 📱 Fully Responsive with Bootstrap 5
 
 ## 🛠️ Tech Stack
 
@@ -21,21 +24,11 @@ Live demo on : https://wanderlust-kztr.onrender.com/listings
 - **Image Hosting:** Cloudinary
 - **Other:** Method-Override, Express-Session, Connect-Flash
 
-## 📂 Folder Structure
+## 🔧 Local Setup Instructions
 
-wanderlust/
-├── models/ # Mongoose models (User, Listing, Review)
-
-├── routes/ # Express route handlers
-
-├── public/ # Static assets (CSS, JS, images)
-
-├── views/ # EJS templates
-
-├── utils/ # Utility classes (ExpressError, middleware)
-
-├── app.js # Main Express app
-
-├── .env # Environment variables
-
-├── package.json
+**1. Clone the Repository**
+git clone https://github.com/kaushik-ladumor/wanderlust-app.git
+cd wanderlust
+npm install
+touch .env
+node app.js
