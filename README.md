@@ -1,6 +1,6 @@
 # 🧭 Wanderlust
 
-A full-stack web application for listing, exploring, and reviewing travel destinations or rental properties.
+Wanderlust is a full-stack web application that allows users to list, explore, and review travel destinations or rental properties. It provides features such as user authentication, listing management, image upload, reviews, and location mapping.
 
 🌐 **Live demo** : https://wanderlust-kztr.onrender.com/listings
 
