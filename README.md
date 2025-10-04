@@ -23,3 +23,7 @@ Wanderlust is a full-stack web application that allows users to list, explore, a
 - **Authentication:** Passport.js (local strategy)
 - **Image Hosting:** Cloudinary
 - **Other:** Method-Override, Express-Session, Connect-Flash
+
+## 🖼️ Screenshots
+
+![Screenshot](image.png)
